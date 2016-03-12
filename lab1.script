@@ -1,0 +1,63 @@
+Script started on 2016年03月12日 (週六) 19時06分04秒
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ whoami;pwd
+D84036094
+/home/D84036094
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ git config -l
+user.name=YifangYu
+user.email=azurestone705@gamil.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/YifangYu/lab1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ https://github.com/YifangYu/lab1.githttps://github.com/Yifa ngYu/lab1.git[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+bash: https://github.com/YifangYu/lab1.git: No such file or directory
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ https://github.com/YifangYu/lab1.git
+bash: https://github.com/YifangYu/lab1.git: No such file or directory
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ git congi[K[K[K[K[K[K
+usage: git [--version] [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [-c name=value] [--help]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and merge with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+See 'git help <command>' for more information on a specific command.
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ git clone https://github.com/YifangYu/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ git clone https://github.com/YifangYu/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ git clone https://github.com/YifangYu/lab11.git
+Cloning into 'lab11'...
+warning: You appear to have cloned an empty repository.
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ ls
+[0m[01;34mlab1[0m  [01;34mlab11[0m  lab1.script  labw1.cpp  README.md  [01;34mrepository[0m
+]0;D84036094@2015cpp: ~D84036094@2015cpp:~$ exit
+
+Script done on 2016年03月12日 (週六) 19時08分28秒
